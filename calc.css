@@ -1,0 +1,40 @@
+  body{
+      width: 100px;
+      background-color: #faf4f6;
+       font-family: 'Handlee', cursive;
+       color:#fff;
+       font-size: 25px;
+    }
+    table{
+        position: absolute;
+        left:40px;
+        top:40px;
+    }
+      table,tr,td,th{
+        overflow: auto;
+        background-color: #7681b1;
+        border-collapse: collapse;
+        text-align: center;
+        border:1px solid #ccccee;
+      }
+     td{
+      box-shadow:-3px -3px 3px #000 inset,
+       3px 3px 3px #000 inset;
+       height:60px;
+       width: 60px;
+      }
+      th{
+        height:60px;
+        max-width:120px;
+      }
+     td:active{
+      box-shadow:-5px -5px 10px #000 inset,
+       5px 5px 10px #000 inset;
+       background: #596289;
+      }
+      td:active span{
+        font-size: 20px;
+      }
+      #result{
+       color:#afafaf;
+      }
