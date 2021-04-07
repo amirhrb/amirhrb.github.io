@@ -20,12 +20,12 @@
      td{
       box-shadow:-3px -3px 3px #000 inset,
        3px 3px 3px #000 inset;
-       height:70px;
-       width: 70px;
+       height:90px;
+       width: 90px;
       }
       th{
         height:60px;
-        max-width:140px;
+        max-width:180px;
       }
      td:active{
       box-shadow:-5px -5px 10px #000 inset,
