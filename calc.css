@@ -1,5 +1,5 @@
   body{
-      width: 100px;
+     
       background-color: #faf4f6;
        font-family: 'Handlee', cursive;
        color:#fff;
@@ -7,8 +7,8 @@
     }
     table{
         position: absolute;
-        left:40px;
-        top:40px;
+        left:60px;
+        top:50px;
     }
       table,tr,td,th{
         overflow: auto;
@@ -20,12 +20,12 @@
      td{
       box-shadow:-3px -3px 3px #000 inset,
        3px 3px 3px #000 inset;
-       height:60px;
-       width: 60px;
+       height:70px;
+       width: 70px;
       }
       th{
         height:60px;
-        max-width:120px;
+        max-width:140px;
       }
      td:active{
       box-shadow:-5px -5px 10px #000 inset,
