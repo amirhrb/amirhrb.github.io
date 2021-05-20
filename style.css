@@ -7,11 +7,15 @@
   color: #e5dddd;
 }
 body{
-  background:linear-gradient(110deg,#8300eb  10px,#af037d 70%,#8300eb);
+
   height: 1000px;
   padding: 0;
   margin: 0;
 }
+.all{
+  background:linear-gradient(110deg,#8300eb  10px,#af037d 70%,#8300eb);
+
+  }
 header{
   z-index: 9099;
   position: fixed;
