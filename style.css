@@ -1,0 +1,102 @@
+@font-face{
+  font-family: LiftedLines; 
+  src: url('LiftedLines-Regular.ttf'); 
+} 
+*{
+  font-family: LiftedLines; 
+  color: #e5dddd;
+}
+body{
+  background:linear-gradient(110deg,#8300eb  10px,#af037d 70%,#8300eb);
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+}
+header{
+  z-index: 9099;
+  position: fixed;
+  top:0;
+  background:linear-gradient(110deg,#8300eb  0%,#c20972);
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 2px 15px #7e036b;
+
+}
+main{
+  text-align: center;
+  margin-top: 55px;
+}
+section{
+  margin: 25px;
+}
+.search{
+display: inline-block;
+  padding: 0 1em;
+  text-align: center;
+  min-width: 2.8em;
+  height: 2.8em;
+  margin: 0;
+  background: #208bfd;
+  border: 2px solid #212121;
+  color: #f9f9f9;
+  transition: all 500ms ease;
+}
+.about{
+  display: inline-block;
+  margin: 1vw;
+  text-decoration: none;
+}
+.logo{
+  display: inline-block;
+  filter:opacity(90%);
+  margin-left: 15vw;
+ margin-top:5px;
+ font-family: LiftedLines; 
+ font-size: 20px;
+ text-align: center;
+}
+.logo+p{
+  display: block;
+  filter:opacity(80%);
+  font-family: LiftedLines;
+  text-align: center;
+  margin-top: -20px;
+  font-size: 12px;
+}
+.image-placeholder {
+    width: 320px;
+    max-width: 320px;
+    height: 280px;
+    background-size: contain;
+    background-position: top left;
+    background-attachment: scroll;
+}
+input {
+  display: inline-block;
+  width: 100%;
+  max-width: 50%;
+  max-width: calc(100% - 8em);
+  min-height: 1.8em;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background: #f3f3f3;
+  border-color: #208bfd;
+  border-width: 1px;
+  color: #212121;
+  transition: all 500ms ease;
+}
+input:focus, input:hover {
+  border-color: #208bfd;
+  transition: all 500ms ease;
+}
+ 
+@media (min-width: 420px) {
+  input {
+    max-width: 50%;
+  }
+}
+::placeholder {
+  color: #212121;
+}
