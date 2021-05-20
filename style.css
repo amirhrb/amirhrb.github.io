@@ -79,7 +79,7 @@ display: inline-block;
 }
 input {
   display: inline-block;
-  height:5vh;
+  height:50px;
   width: 100%;
   max-width: 50%;
   max-width: calc(100% - 8em);
