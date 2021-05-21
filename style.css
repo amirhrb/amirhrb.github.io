@@ -80,9 +80,9 @@ display: inline-block;
 input {
   display: inline-block;
   height:50px;
-  width: 100%;
-  max-width: 50%;
-  max-width: calc(100% - 8em);
+
+
+  max-width: 80%;
   min-height: 1.8em;
   padding: 0.5em;
   margin: 0.5em 0;
